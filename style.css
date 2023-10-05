@@ -10,6 +10,16 @@
     justify-content: space-between; 
 }
 
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;    
+    border: black 1px solid;
+    border-radius: 1rem;
+
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -30,6 +40,18 @@ h2 {
     border-bottom: 2px black solid;
     width: 30%;
     
+}
+
+.LogoSpace {
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.Logo {
+    width: 60px;
 }
 
 .title {
