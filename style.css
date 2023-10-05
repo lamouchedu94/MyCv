@@ -84,22 +84,23 @@ h2 {
 
 .bloc2 {
     font-size: 20px;
-    color: red;
+    color: black;
 }
 
 .bloc3 {
     font-size: 20px;
-    margin-top: 35px;
+    margin-top: -10px;
     font-style: italic;
+    text-align: left;
     
 }
 
 .bloc4 {
     margin-top: 10px;
     padding-left: 10px;
-    border: black 1px solid;
+    /* border: black 1px solid; */
     border-radius: 30px;
-    background-color: #80acf2;
+    /* background-color: #afceff; */
 }
 
 .bloc5 {
@@ -107,7 +108,7 @@ h2 {
     padding-left: 10px;
     border: black 1px solid;
     border-radius: 30px;
-    background-color: #bef17f;
+    background-color: #b9f66f;
 }
 .bloc6 {
     margin-left: 2%;
@@ -117,4 +118,11 @@ h2 {
     margin-top: 10px;
     border: black 1px solid;
     border-radius: 1rem;
+}
+
+.AdresseMail {
+    margin-top: -20px;
+    font-size: small;
+    padding-left: 10px;
+    font-weight: bold;
 }
