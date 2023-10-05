@@ -42,9 +42,15 @@ main {
 }
 
 h2 {
-    border-bottom: 2px black solid;
+    color: rgb(95, 165, 250);
+    font-weight: bolder;
     width: max-content;
     
+}
+
+h4 {
+    color: rgb(95, 165, 250);
+
 }
 
 .LogoSpace {
@@ -61,6 +67,7 @@ h2 {
 }
 
 .title {
+    
     font-weight: bold;
 }
 
@@ -116,7 +123,7 @@ h2 {
     padding-right: 20px;
     width: 40%;
     margin-top: 10px;
-    border: black 1px solid;
+    /* border: black 1px solid; */
     border-radius: 1rem;
 }
 
