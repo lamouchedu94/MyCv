@@ -17,7 +17,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 8px;    
-    border: black 1px solid;
+    /* border: black 1px solid; */
     border-radius: 1rem;
 
 }
@@ -64,6 +64,11 @@ h4 {
 
 .Logo {
     width: 55px;
+    transition: transform .2s;
+}
+
+.Logo:hover {
+    transform: scale(1.3);
 }
 
 .title {
@@ -132,4 +137,18 @@ h4 {
     font-size: small;
     padding-left: 10px;
     font-weight: bold;
+    transition: transform .2s;
+}
+
+.AdresseMail:hover {
+    transform: scale(1.02);
+    
+}
+
+a {
+    color: rgb(24, 68, 94);
+}
+
+a:hover {
+    color: black;
 }
