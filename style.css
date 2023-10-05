@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* background-color: black; */
 }
 
 .bas {
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+    
 }
 
 
@@ -71,6 +73,7 @@ h2 {
 
 .danslebas {
     /* background-color: black; */
+    
     width: 100%;
 }
 
